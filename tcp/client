@@ -1,0 +1,6 @@
+COMPILER = gcc
+
+a: serversocket.c
+	${COMPILER} clientsocket.c
+	./a.out
+
